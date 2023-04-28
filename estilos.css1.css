@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display & display=swap');
+*{
+	margin:2px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Playfair Display', serif";
+}
+
+body{
+    background-image: url("img/dog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #68B8E8;
+  text-align: center;
+
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color:#68B8E8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #68B8E8;
+}
